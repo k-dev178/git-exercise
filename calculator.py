@@ -6,9 +6,13 @@ Git Lab TODO (충돌 유도 지점)
 - 같은 블록을 고치면 충돌이 발생합니다. 충돌 해결 시 의미가 보존되도록 최소 편집을 하세요.
 """
 
+
 def div(a, b):
     # 기본 구현(현재는 덧셈). 실습 중 이 라인을 서로 다르게 바꾸게 됩니다.
     return a / b
 
 def mul(a, b):
     return a * b
+
+def minus(a, b):
+    return a - b
